@@ -7,7 +7,14 @@
     <link rel="stylesheet" href="StopWatch.css">
 </head>
 <body>
-    <h1>Hello world</h1>
+    <div class="stopwatch">
+        <h1 id="displayTime">00:00:00</h1>
+        <div class="buttons">
+            <img src="./stopwatch_img/images/stop.png" onclick="watchStop()">
+            <img src="./stopwatch_img/images/stopwatch.png" onclick="watchStart()">
+            <img src="./stopwatch_img/images/reset.png" onclick="watchReset()">
+        </div>
+    </div>
     <script src="StopWatch.js"></script>
 </body>
 </html>

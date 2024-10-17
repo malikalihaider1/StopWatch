@@ -1,0 +1,37 @@
+@font-face {
+    font-family:Courier;
+    src: url(./Courier_Prime/CourierPrime-Italic.ttf);
+}
+body{
+    background-color: #edeaff;
+    font-family: Courier;
+}
+
+.stopwatch{
+    width: 90%;
+    max-width: 600px;
+    background-image:linear-gradient(rgb(0,0,0,0.8),rgb(0,0,0,0.80)),url(stopwatch_img/images/background.png) ;
+    background-size:cover;
+    background-position:center;
+    text-align: center;
+    padding: 40px 0;
+    color: #fff;
+    margin: 200px auto 0;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
+}
+
+.stopwatch h1 {
+    margin-top: 60px;
+    font-size: 64px;
+    font-weight: 300;
+}
+.buttons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.buttons img {
+    width: 50px;
+    margin: 0 20px;
+    cursor: pointer;
+}
